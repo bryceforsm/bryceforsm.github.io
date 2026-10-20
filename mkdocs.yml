@@ -6,6 +6,7 @@ repo_name: bryceforsm
 
 theme:
   name: material
+  custom_dir: overrides
   # Single slate scheme with no toggle, so the site is always dark.
   palette:
     scheme: slate
@@ -14,10 +15,7 @@ theme:
   font:
     text: Inter
     code: JetBrains Mono
-  logo: assets/cool-cat.svg
   favicon: assets/cool-cat.svg
-  icon:
-    repo: fontawesome/brands/github
   features:
     - navigation.instant
 

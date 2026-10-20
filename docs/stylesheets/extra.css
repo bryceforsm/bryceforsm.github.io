@@ -19,11 +19,6 @@
   --md-footer-bg-color--dark: #080d13;
 }
 
-.md-header {
-  background: linear-gradient(90deg, #16212e, #1d2c3d);
-  box-shadow: 0 1px 0 rgba(94, 177, 255, 0.15);
-}
-
 .md-main {
   background:
     radial-gradient(ellipse at top, rgba(94, 177, 255, 0.08), transparent 60%),
