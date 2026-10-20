@@ -12,7 +12,7 @@ hide:
 
 # Hey, I'm Bryce
 
-Just a simple DevOps Engineer who builds things for fun.
+Just a simple IT Guy who builds things for fun.
 
 [:fontawesome-brands-github: GitHub](https://github.com/bryceforsm){ .md-button .md-button--primary }
 [:material-email-outline: Email me](mailto:bryceforsm@gmail.com){ .md-button }
@@ -41,8 +41,3 @@ Some of it is polished, some of it is held together with duct tape and good inte
     Breaking things on purpose so I know how to fix them later.
 
 </div>
-
-## Contact
-
-Want to say hi or ask about something you found here? Email me at
-[bryceforsm@gmail.com](mailto:bryceforsm@gmail.com).
