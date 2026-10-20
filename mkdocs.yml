@@ -1,0 +1,41 @@
+site_name: bryceforsm
+site_url: https://bryceforsm.github.io/
+site_description: A simple DevOps Engineer with too many hobby projects.
+repo_url: https://github.com/bryceforsm
+repo_name: bryceforsm
+
+theme:
+  name: material
+  # Single slate scheme with no toggle, so the site is always dark.
+  palette:
+    scheme: slate
+    primary: custom
+    accent: custom
+  font:
+    text: Inter
+    code: JetBrains Mono
+  logo: assets/cool-cat.svg
+  favicon: assets/cool-cat.svg
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - navigation.instant
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/bryceforsm
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+nav:
+  - Home: index.md

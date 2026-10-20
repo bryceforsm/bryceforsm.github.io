@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title">
+  <title id="title">A cool cat wearing sunglasses</title>
+  <defs>
+    <radialGradient id="bg" cx="50%" cy="40%" r="65%">
+      <stop offset="0" stop-color="#2b3c52"/>
+      <stop offset="1" stop-color="#111a26"/>
+    </radialGradient>
+    <linearGradient id="fur" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#a9b8c9"/>
+      <stop offset="1" stop-color="#7d8ea3"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1622"/>
+      <stop offset="0.5" stop-color="#1f4f7a"/>
+      <stop offset="1" stop-color="#0b1622"/>
+    </linearGradient>
+    <clipPath id="clip">
+      <circle cx="200" cy="200" r="194"/>
+    </clipPath>
+  </defs>
+
+  <circle cx="200" cy="200" r="196" fill="url(#bg)" stroke="#5eb1ff" stroke-width="4"/>
+
+  <g clip-path="url(#clip)">
+    <path d="M96 400 Q100 318 200 310 Q300 318 304 400 Z" fill="#6f8197"/>
+  </g>
+
+  <!-- ears -->
+  <path d="M88 190 L112 62 Q118 52 128 60 L200 128 Z" fill="url(#fur)"/>
+  <path d="M312 190 L288 62 Q282 52 272 60 L200 128 Z" fill="url(#fur)"/>
+  <path d="M108 160 L122 86 L170 128 Z" fill="#d8a7b8" opacity="0.8"/>
+  <path d="M292 160 L278 86 L230 128 Z" fill="#d8a7b8" opacity="0.8"/>
+
+  <ellipse cx="200" cy="220" rx="128" ry="108" fill="url(#fur)"/>
+
+  <g stroke="#5f7187" stroke-width="8" stroke-linecap="round" fill="none">
+    <path d="M200 122 V148"/>
+    <path d="M176 126 Q180 138 178 150"/>
+    <path d="M224 126 Q220 138 222 150"/>
+  </g>
+
+  <!-- sunglasses -->
+  <g stroke="#0d141d" stroke-width="7" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M100 186 L74 176" fill="none" stroke-width="8"/>
+    <path d="M300 186 L326 176" fill="none" stroke-width="8"/>
+    <path d="M190 182 Q200 174 210 182" fill="none"/>
+    <path d="M96 170 H190 Q194 170 193 176 L186 210 Q183 226 166 226 H122 Q104 226 100 210 L94 178 Q93 170 96 170 Z" fill="url(#lens)"/>
+    <path d="M304 170 H210 Q206 170 207 176 L214 210 Q217 226 234 226 H278 Q296 226 300 210 L306 178 Q307 170 304 170 Z" fill="url(#lens)"/>
+  </g>
+  <path d="M112 180 L128 180 L114 214 Z" fill="#ffffff" opacity="0.18"/>
+  <path d="M232 180 L248 180 L234 214 Z" fill="#ffffff" opacity="0.18"/>
+  <path d="M292 152 L296 162 L306 166 L296 170 L292 180 L288 170 L278 166 L288 162 Z" fill="#cfe8ff"/>
+
+  <!-- muzzle -->
+  <ellipse cx="184" cy="262" rx="24" ry="18" fill="#c7d2de"/>
+  <ellipse cx="216" cy="262" rx="24" ry="18" fill="#c7d2de"/>
+  <path d="M190 244 H210 Q212 244 210 248 L202 256 Q200 258 198 256 L190 248 Q188 244 190 244 Z" fill="#e38fa8"/>
+  <g stroke="#3a4656" stroke-width="3.5" stroke-linecap="round" fill="none">
+    <path d="M200 257 V266 Q192 276 180 270"/>
+    <path d="M200 266 Q210 276 222 268"/>
+  </g>
+
+  <g stroke="#e6edf5" stroke-width="2.5" stroke-linecap="round" opacity="0.85">
+    <path d="M162 256 L82 244"/>
+    <path d="M162 264 L80 268"/>
+    <path d="M164 272 L88 290"/>
+    <path d="M238 256 L318 244"/>
+    <path d="M238 264 L320 268"/>
+    <path d="M236 272 L312 290"/>
+  </g>
+</svg>

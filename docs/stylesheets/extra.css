@@ -1,0 +1,103 @@
+[data-md-color-scheme="slate"] {
+  --md-hue: 212;
+  --md-default-bg-color: #0e1620;
+  --md-default-fg-color--light: #a9b8c9;
+
+  --md-primary-fg-color: #16212e;
+  --md-primary-fg-color--light: #22303f;
+  --md-primary-fg-color--dark: #0b121a;
+  --md-primary-bg-color: #e6edf5;
+  --md-primary-bg-color--light: #a9b8c9;
+
+  --md-accent-fg-color: #5eb1ff;
+  --md-accent-fg-color--transparent: rgba(94, 177, 255, 0.12);
+  --md-accent-bg-color: #0e1620;
+
+  --md-typeset-a-color: #7cc0ff;
+
+  --md-footer-bg-color: #0b121a;
+  --md-footer-bg-color--dark: #080d13;
+}
+
+.md-header {
+  background: linear-gradient(90deg, #16212e, #1d2c3d);
+  box-shadow: 0 1px 0 rgba(94, 177, 255, 0.15);
+}
+
+.md-main {
+  background:
+    radial-gradient(ellipse at top, rgba(94, 177, 255, 0.08), transparent 60%),
+    var(--md-default-bg-color);
+}
+
+.hero {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 0 1rem;
+}
+
+.hero p {
+  margin: 0;
+}
+
+.hero-cat {
+  width: 240px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 4px rgba(94, 177, 255, 0.25),
+    0 0 60px rgba(94, 177, 255, 0.35);
+  animation: float 6s ease-in-out infinite;
+}
+
+.hero-text {
+  max-width: 28rem;
+}
+
+.md-typeset .hero-text h1 {
+  margin: 0 0 0.5rem;
+  font-weight: 800;
+  background: linear-gradient(90deg, #e6edf5, #5eb1ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-text p {
+  font-size: 1.1rem;
+  color: var(--md-default-fg-color--light);
+}
+
+.hero-text .md-button {
+  margin-top: 1.2rem;
+}
+
+.md-typeset .grid.cards > ul > li {
+  border-color: rgba(94, 177, 255, 0.15);
+  background: rgba(22, 33, 46, 0.6);
+  transition: transform 0.2s, border-color 0.2s;
+}
+
+.md-typeset .grid.cards > ul > li:hover {
+  transform: translateY(-3px);
+  border-color: var(--md-accent-fg-color);
+}
+
+.md-typeset .lg {
+  font-size: 1.6em;
+  vertical-align: middle;
+  color: var(--md-accent-fg-color);
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hero-cat {
+    animation: none;
+  }
+}
