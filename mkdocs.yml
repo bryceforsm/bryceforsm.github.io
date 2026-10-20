@@ -1,4 +1,4 @@
-site_name: bryceforsm
+site_name: bryceforsm.github.io
 site_url: https://bryceforsm.github.io/
 site_description: A simple DevOps Engineer with too many hobby projects.
 repo_url: https://github.com/bryceforsm
@@ -27,6 +27,8 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/bryceforsm
+    - icon: material/email-outline
+      link: mailto:bryceforsm@gmail.com
 
 markdown_extensions:
   - attr_list
