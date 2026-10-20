@@ -14,7 +14,7 @@ hide:
 
 Just a simple IT Guy who builds things for fun.
 
-[:fontawesome-brands-github: GitHub](https://github.com/bryceforsm){ .md-button .md-button--primary }
+[:fontawesome-brands-github: GitHub](https://github.com/bryceforsm){ .md-button }
 [:material-email-outline: Email me](mailto:bryceforsm@gmail.com){ .md-button }
 
 </div>

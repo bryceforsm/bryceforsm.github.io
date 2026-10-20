@@ -69,7 +69,7 @@
   margin: 1.2rem 0.4rem 0 0;
 }
 
-.md-typeset .md-button:not(.md-button--primary) {
+.md-typeset .md-button {
   color: var(--md-accent-fg-color);
 }
 
